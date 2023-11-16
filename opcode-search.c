@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
-  * opcode_search - searches for opcode in struct
+  * opcode-search - searches for opcode in struct
   * Return: Nothing, void
   */
-void opcode_search(void)
+void opcode-search(void)
 {
 	instruction_t ops[] = {
 		{"push", push},

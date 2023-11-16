@@ -77,7 +77,7 @@ void divide(stack_t **stack, size_t line_number);
 void mul(stack_t **stack, size_t line_number);
 void sub(stack_t **stack, size_t line_number);
 void mod(stack_t **stack, size_t line_number);
-void opcode_search(void);
+void opcode-search(void);
 void pchar(stack_t **stack, size_t line_number);
 void pstr(stack_t **stack, size_t line_number);
 void rotl(stack_t **stack, size_t line_number);
