@@ -6,7 +6,7 @@
   * @line_number: 0
   * Return: nothing, void
   */
-void fifo(stack_t **stack, unsigned int line_number)
+void fifo(stack_t **stack, size_t line_number)
 {
 	(void) stack;
 	(void) line_number;

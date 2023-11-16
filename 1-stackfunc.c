@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <string.h>
 /**
  * add_stack_init - add a node at the beggining of a stack_t
  * Return: Address of new node or NULL if failed
@@ -36,8 +37,8 @@ void gettoken(char *buf)
 	token = strtok(buf, delim);
 	for (j = 0; token != NULL && j < 2; j++)
 	{
-		element->tokened[i] = strdup(token);
-		if (element->tokened[i] == NULL)
+		element->tokened[j] = strdup(token);
+		if (element->tokened[j] == NULL)
 			exit_function(3);
 		token = strtok(NULL, delim);
 	}
