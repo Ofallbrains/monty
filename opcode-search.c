@@ -4,7 +4,7 @@
   * opcode_search - searches for opcode in struct
   * Return: Nothing, void
   */
-void opcode_search(void);
+void opcode_search(void)
 {
 	instruction_t ops[] = {
 		{"push", push},

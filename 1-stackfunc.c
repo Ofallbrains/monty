@@ -20,7 +20,7 @@ stack_t *add_stack_init(void)
 }
 
 /**
-  * get_tokens - tokenizes a line into separate strings
+  * gettoken - tokenizes a line into separate strings
   * @buf: the buffer containing the line of strings
   * Return: void
   */
